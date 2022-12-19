@@ -1,0 +1,309 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    background-color:rgb(245, 244, 244);
+
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width:1200px;
+    margin: 90px auto;
+}
+.bg {
+    display: flex;
+    border-radius: 6px;
+    background-color:rgb(227, 227, 227);
+}
+.header {
+    position: fixed;
+    right: 0;
+    top: -10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width:100%;
+    max-width: inherit;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color:rgb(29, 30, 33);
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+a {
+    padding: 0 10px;
+    text-decoration: none;
+    color:rgb(227, 227, 227);
+}
+a:hover {
+    padding: 10px;
+    cursor:pointer;
+    background-color:rgb(157, 150, 250);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.header__logo {
+    width: 25px;
+    color:rgb(97, 87, 238);
+    font-weight: 600;
+    margin: 0 30px;
+}
+.logo {
+    margin: auto;
+    margin-left: -5px;
+    width:35px;
+}
+.info__item {
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding:30px;
+    background-color:rgb(227, 227, 227);
+}
+.info__text {
+    color: black;
+
+}
+.info__one {
+    margin-bottom: 20px;
+}
+.info__two {
+    margin-bottom: 20px;
+    flex-direction: row-reverse;
+}
+.info__img-one {
+    background-image: url(https://i.pinimg.com/564x/57/51/fa/5751facb34dbe0afa3300aca3fe82ad9.jpg);
+    background-size: cover;
+    background-position: center;
+    margin:0 20px;
+    min-width: 300px;
+    height: 300px;
+    background-color:rgb(29, 30, 33);
+    border-radius: 6px;
+}
+.info__img-two {
+    background-image: url(https://i.pinimg.com/564x/04/9f/01/049f017daf0c2163614ccdb93c24b311.jpg);
+    background-size: cover;
+    background-position: center;
+    margin:0 20px;
+    min-width: 300px;
+    height: 300px;
+    background-color:rgb(29, 30, 33);
+    border-radius: 6px;
+}
+.info__text-one {
+    margin-left: 30px;
+}
+.info__text-two {
+    margin-right: 30px;
+    text-align: right;
+}
+section {
+    margin-bottom: 30px;
+}
+.price {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(227, 227, 227);
+    padding: 30px 0;
+}
+.price__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color:rgb(29, 30, 33);
+}
+.price__img {
+    width:100%;
+    height: 230px;
+    border-radius: 6px;
+    background-color: rgb(71, 73, 80);
+}
+.price__img-one {
+    background-image: url(https://www.ixbt.com/img/n1/news/2022/0/2/iphone-14-data-vyhoda-00001_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.price__img-two {
+    background-image: url(https://rainbowfoto.ru/wp-content/uploads/2021/04/ajpadpro_2021.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.price__img-three {
+    background-image: url(https://applesochi.ru/upload/iblock/c87/c879fa73ae45856ec9542cf160431f6c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.price__text {
+    text-align: center;
+    margin-top: -10px;
+}
+.price__btn {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    height: 25px;
+    border-radius: 6px;
+    background-color:rgb(97, 87, 238);
+}
+.price__title {
+    text-align: center;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.card__item:hover {
+    opacity: 0.6;
+}
+.card__item {
+    width:250px;
+    height:40px;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.card__item-one {
+    background-image:url(https://s2.r29static.com/bin/entry/168/0,0,2000,1050/x,80/1764686/image.jpg);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+}
+.card__item-two {
+    background-image:url(https://f-tr.ru/images/feature_variant/13/0d07e0a509c777a8d875c5b2f9a52fc0.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+.card__item-three {
+    background-image:url(https://www.cppng.com/file/download/2107/samsung_logo_PNG3.png);
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: center;
+}
+.card__item-four {
+    background-image:url(https://pngpress.com/wp-content/uploads/2020/09/uploads_lg_logo_lg_logo_PNG14.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+}
+.card__item-five {
+    background-image:url(https://logos-world.net/wp-content/uploads/2020/11/Logitech-Symbol.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+}
+.card__item-six {
+    background-image:url(https://1000logos.net/wp-content/uploads/2017/03/Lenovo-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+}
+.card__item-seven {
+    background-image:url(https://1000logos.net/wp-content/uploads/2018/09/Honor-logo-2000x1125.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+}
+.card__item-eight {
+    background-image:url(https://clipartcraft.com/images/jbl-logo-speaker-9.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+.category {
+    position: relative;
+    height: 400px;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+.category__item {
+    width: 250px;
+    height: 180px;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.category__item-one {
+    position: absolute;
+    background-image:url(https://cdn-icons-png.flaticon.com/512/2500/2500361.png);
+    background-size: 160px;
+    left: 20px;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.category__item-two {
+    position: absolute;
+    background-image:url(https://cdn-icons-png.flaticon.com/512/4565/4565282.png);
+    background-size: 160px;
+    right: 20px;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.category__item-three {
+    position: absolute;
+    background-image:url(https://cdn-icons-png.flaticon.com/512/3142/3142027.png);
+    background-size: 160px;
+    right: 20px;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.category__item-four {
+    position: absolute;
+    background-image:url(https://cdn-icons-png.flaticon.com/512/9020/9020788.png);
+    background-size: 160px;
+    left: 20px;
+    bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.category__item-five {
+    position: absolute;
+    background-image:url(https://cdn-icons-png.flaticon.com/512/9116/9116862.png);
+    background-size: 160px;
+    right: 20px;
+    bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.category__item:hover {
+    opacity: 0.6;
+}
+.footer {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width:100%;
+    max-width: inherit;
+    margin: -80px auto;
+    border-radius: 6px;
+    background-color:rgb(29, 30, 33);
+}
+
+

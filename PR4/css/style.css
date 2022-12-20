@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial;
+}
+body {
+    font-size: 18px;
+    background-color:#FFFFFF;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 32px;
+    width: 100%;
+    max-width:1280px;
+    margin: 10px auto;
+}
+.gen__page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    max-width:1280px;
+}
+.nav {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 83px;
+    width: 100%;
+    max-width: 1280px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+.header__sign-in {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 8px 20px;
+    width: 111px;
+    height: 36px;
+    color: white;
+    background: #156963;
+}
+.header__sign-up {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #156963;
+    padding: 8px 0;
+    width: 111px;
+    height: 36px;
+}
+.gen__img {
+    width: 608px;
+    height: 740px;
+}
+.gen__page__img {
+    width: 608px;
+    height: 740px;
+}
+.gen__img {
+    width: 608px;
+    height: 740px;
+}
+.gen__page__right {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.gen__page__cont {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 685px;
+    top: 186px;
+    width: 519px;
+    height: 286px;
+    gap: 24px;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 83px;
+    color: #156963;
+}
+.gen__page_text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2C1500;
+    opacity: 0.8;
+}
+.gen__page__btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.gen__page__leftbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 260px;
+    height: 60px;
+    margin-top: 10px;
+}
+.bot__txt-btn-1, .bot__txt-btn-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 500;
+    font-size: 32px;
+}
+.top__txt-btn-1, .top__txt-btn-2 {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 10px;
+    color: #333333;
+    opacity: 0.7;
+}
+.top__txt-btn-2 {
+    color: #F2F2F2;
+}
+.bot__txt-btn-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #156963;
+}
+.bot__txt-btn-2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.top__txt-btn-1:before {
+    content: url('../img/arrow-back.png');
+    margin-right: 10px;
+}
+.gen__page__rightbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 160px;
+    background-color:#156963;
+}
+.rightbtn__in {
+    height: 63px;
+}
+.top__txt-btn-2::after {
+    content: url('../img/Vector.png');
+    margin-left: 10px;
+}
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    left: 56px;
+    top: 882px;
+    gap: 32px;
+}
+.uslugi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    height: 155px;
+    border: 1px solid #E0E0E0;
+}
+.uslugi__inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 236px;
+    height: 112px;
+}
+.uslugi_h {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 16px;
+    width: 137px;
+    height: 48px;
+    line-height: 24px;
+    color: #156963;
+}
+.uslugi_h-2 {
+    width: 100%;
+    height: 48px;
+}
+.uslugi_h-1::before {
+    content: url('../img/fast 1.png');
+    margin-right: 20px;
+}
+.uslugi_h-2::before {
+    content: url('../img/Vector2.png');
+    margin-right: 20px;
+}
+.uslugi_h-3::before {
+    content: url('../img/plant 1.png');
+    margin-right: 20px;
+}
+.uslugi_h-4::before {
+    content: url('../img/dollar-symbol 1.png');
+    margin-right: 20px;
+}
+.uslugi_txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #2C1500;
+}
+.cactus__page {
+    position: absolute;
+    width: 1168px;
+    height: 352px;
+    left: 56px;
+    top: 1117px;
+}
+.feat_plants {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+hr {
+    margin: 20px 0;
+}
+.cactus {
+    width: inherit;
+    width: 1168px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cactus__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding: 10px 0;
+}
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.h__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 12px;
+    gap: 10px;
+    width: 130px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+.list__txt {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.list__txt::after {
+    content: url('../img/Vector3.png');
+    margin-left: 10px;
+}
+
+
+
+
+
+
